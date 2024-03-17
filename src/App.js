@@ -1,8 +1,15 @@
+<<<<<<< Updated upstream
 import logo from './logo.svg';
 import MyButton from "./components/MyButton/MyButton"
 import './App.css';
 
 // import React, { useState } from 'react';
+=======
+import logo from "./logo.svg";
+import "./App.css";
+
+import React, { useState } from "react";
+>>>>>>> Stashed changes
 // import { click } from '@testing-library/user-event/dist/click';
 
 function App() {
@@ -16,7 +23,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.<br/>
+          Edit <code>src/App.js</code> and save to reload.
+          <br />
           Yo.
         </p>
         <a
