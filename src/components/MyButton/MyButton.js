@@ -23,3 +23,5 @@ function MyButton(props) {
     </button>
   );
 }
+
+export default MyButton;
